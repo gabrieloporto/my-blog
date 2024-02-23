@@ -4,7 +4,7 @@ pubDate: 2024-02-22
 description: "Principios SOLID aplicados en React"
 author: "Gabriel Oporto"
 image:
-  url: "../../../public/solid-react.webp"
+  url: "https://i.postimg.cc/pd8CRs9j/solid-react.webp"
   alt: "The full Astro logo."
 tags: ["Buenas practicas", "React"]
 ---

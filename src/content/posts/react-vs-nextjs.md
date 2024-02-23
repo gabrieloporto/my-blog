@@ -3,7 +3,7 @@ title: React.js vs. Next.js
 author: Gabriel Oporto
 description: "Una Comparativa desde la Perspectiva de un Desarrollador Front-End"
 image:
-  url: "../../../public/next-vs-react.webp"
+  url: "https://i.postimg.cc/gjbfGwkz/next-vs-react.webp"
   alt: "Thumbnail of Astro arcs."
 pubDate: 2024-02-22
 tags: ["react", "comparativa", "nextjs"]
