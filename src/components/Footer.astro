@@ -1,16 +1,31 @@
 ---
-import Social from "./Social.astro"
+import { WebsiteIcon, GithubIcon, LinkedinIcon } from "./SocialIcons.jsx"
 ---
 <style>
   footer {
+    position: fixed;
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
   }
+
+  a {
+    color: #000;
+  }
+
+  .dark a {
+    color: #fff;
+  }
 </style>
 
 <footer>
-  <Social platform="twitter" username="astrodotbuild" />
-  <Social platform="github" username="withastro" />
-  <Social platform="youtube" username="astrodotbuild" />
+  <a href="https://gabrieloporto.vercel.app" target="_blank">
+    <WebsiteIcon/>
+  </a>
+  <a href="https://github.com/gabrieloporto" target="_blank">
+    <GithubIcon/>
+  </a>
+  <a href="https://www.linkedin.com/in/gabrieloporto/" target="_blank">
+    <LinkedinIcon/>
+  </a>
 </footer>
