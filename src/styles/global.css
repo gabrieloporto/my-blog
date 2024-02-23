@@ -52,11 +52,13 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  border-bottom: 4px solid transparent;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  border-bottom: 4px solid #0d0950;
+  transition: all 200ms ease-in-out;
 }
 
 .expanded {
@@ -80,4 +82,22 @@ h1 {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #171533;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
+  border-bottom: 4px solid #a9b8f8;
+}
+
+.dark p {
+  color: #bebfce;
 }
